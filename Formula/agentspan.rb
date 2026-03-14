@@ -1,25 +1,25 @@
 class Agentspan < Formula
   desc "CLI for AgentSpan - Build, run, and manage AI agents"
   homepage "https://github.com/agentspan/agentspan"
-  version "0.0.5"
+  version "0.0.6"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/agentspan/agentspan/releases/download/v0.0.5/agentspan_darwin_arm64"
-      sha256 "8f7a283f666ba04a0615cfb8ab8947ae90bb73e35b00ae3ad8f7a2d95683f499"
+      url "https://github.com/agentspan/agentspan/releases/download/v0.0.6/agentspan_darwin_arm64"
+      sha256 "fc8ee6aac43a2ebc6cdc27f74d6153c866b56ed948a8477757192c95dcdf5efb"
     else
-      url "https://github.com/agentspan/agentspan/releases/download/v0.0.5/agentspan_darwin_amd64"
-      sha256 "23998c8c6c935bfbb54b6d24b33fa9550c06a25a47c1070b6139493ee77e29de"
+      url "https://github.com/agentspan/agentspan/releases/download/v0.0.6/agentspan_darwin_amd64"
+      sha256 "f94c8f8deacba4632c404c96ce85ab6914279752375463d4f62e4b4b32105673"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/agentspan/agentspan/releases/download/v0.0.5/agentspan_linux_arm64"
-      sha256 "12e3bf8f949b6f41763d477b46ee3fe0454dda7db4be0beafcadc1cf4547b3e5"
+      url "https://github.com/agentspan/agentspan/releases/download/v0.0.6/agentspan_linux_arm64"
+      sha256 "cbc1d5a18b8109d1ed7b23d0fd8777c820423752cebe4baee18fe719b767570f"
     else
-      url "https://github.com/agentspan/agentspan/releases/download/v0.0.5/agentspan_linux_amd64"
-      sha256 "30c0fe24d12b9aee495ee878e32d1dede5be1c0901b829c2b310d67ba04e547c"
+      url "https://github.com/agentspan/agentspan/releases/download/v0.0.6/agentspan_linux_amd64"
+      sha256 "c219c2c3a2155f65f440989a8b646697f08a4c4af9217570fe65bde0d1894146"
     end
   end
 
