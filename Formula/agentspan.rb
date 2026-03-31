@@ -6,20 +6,20 @@ class Agentspan < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/agentspan-ai/agentspan/releases/download/v0.0.11/agentspan_darwin_arm64"
-      sha256 "855367977ff017d2ace007c92177a68337016e56d8615b1eacdd85ed8ff0a393"
+      sha256 "6a6ccd594a3558de3aca352d399015ae1fd5d492cee06dca35053f299298cd20"
     else
       url "https://github.com/agentspan-ai/agentspan/releases/download/v0.0.11/agentspan_darwin_amd64"
-      sha256 "df00220c1ecc5b4a9a8d92509418265a16ee3fd211b6751d5eb8ff47eebca0d6"
+      sha256 "66315775c1df4267c62970eae6bac4b47f938b45486f333a5bac5d0718b25f42"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/agentspan-ai/agentspan/releases/download/v0.0.11/agentspan_linux_arm64"
-      sha256 "868c6036e152f1fee50bde0a3a29f81c6361d30907d9c17aba22e2a40ad9d7b1"
+      sha256 "b2e80b54de3fcdd5c8240e872316c8de48e24f666aef744033033e5447cd2936"
     else
       url "https://github.com/agentspan-ai/agentspan/releases/download/v0.0.11/agentspan_linux_amd64"
-      sha256 "a6c8d2b29398de2a1d0d426a8b1a335d894440c6194137156479eed20a163c8c"
+      sha256 "5ef664b46a81a13ae59a57e565a6cc5df215f16bc61540dd57266e9c72f3b0d8"
     end
   end
 
